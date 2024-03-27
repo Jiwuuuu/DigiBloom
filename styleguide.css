@@ -8,4 +8,9 @@
   --glass-1: 0px 4px 24px 0px rgba(0, 0, 0, 0.2);
   --phone-shadow: 24px 24px 24px 0px rgba(0, 0, 0, 0.45);
   --variable-collection-yet: rgba(235, 21, 21, 1);
+  --variable-collection-g: rgba(255, 255, 255, 0.35);
+  --variable-collection-hrh: rgba(149, 178, 224, 1);
+  --variable-collection-hih: rgba(117, 115, 187, 1);
+  --variable-collection-text-2: rgba(30, 99, 185, 1);
+  --variable-collection-gradient-5: rgba(89, 174, 221, 0.7);
 }

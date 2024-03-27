@@ -10,15 +10,125 @@
   background-color: #0e1111;
   overflow: hidden;
   width: 1920px;
-  height: 9804px;
+  height: 9488px;
   position: relative;
 }
 
 .desktop-info-page .overlap {
   position: absolute;
+  width: 1145px;
+  height: 600px;
+  top: 3847px;
+  left: -238px;
+}
+
+.desktop-info-page .ellipse {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  top: 0;
+  left: 0;
+  border-radius: 300px;
+  filter: blur(433.8px);
+  background: linear-gradient(
+    180deg,
+    rgba(118, 244, 155, 0.41) 0%,
+    rgba(106.77, 229.4, 185.33, 0.41) 28%,
+    rgba(100.04, 220.66, 203.48, 0.41) 52.5%,
+    rgba(93.05, 211.56, 222.37, 0.41) 77.5%,
+    rgba(88, 205, 236, 0.41) 100%
+  );
+}
+
+.desktop-info-page .group {
+  position: absolute;
+  width: 926px;
+  height: 520px;
+  top: 40px;
+  left: 219px;
+}
+
+.desktop-info-page .overlap-group {
+  position: relative;
+  height: 520px;
+  border-radius: 20px;
+}
+
+.desktop-info-page .annie-spratt {
+  position: absolute;
+  width: 907px;
+  height: 520px;
+  top: 0;
+  left: 19px;
+}
+
+.desktop-info-page .rectangle {
+  position: absolute;
+  width: 926px;
+  height: 520px;
+  top: 0;
+  left: 0;
+  border-radius: 20px;
+  background: linear-gradient(180deg, rgba(14, 17, 17, 0) 0%, rgb(14, 17, 17) 100%);
+}
+
+.desktop-info-page .overlap-2 {
+  position: absolute;
+  width: 1186px;
+  height: 600px;
+  top: 4766px;
+  left: 1034px;
+}
+
+.desktop-info-page .ellipse-2 {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  top: 0;
+  left: 586px;
+  border-radius: 300px;
+  filter: blur(433.8px);
+  background: linear-gradient(
+    180deg,
+    rgba(118, 244, 155, 0.41) 0%,
+    rgba(106.77, 229.4, 185.33, 0.41) 28%,
+    rgba(100.04, 220.66, 203.48, 0.41) 52.5%,
+    rgba(93.05, 211.56, 222.37, 0.41) 77.5%,
+    rgba(88, 205, 236, 0.41) 100%
+  );
+}
+
+.desktop-info-page .overlap-wrapper {
+  position: absolute;
+  width: 903px;
+  height: 520px;
+  top: 25px;
+  left: 0;
+}
+
+.desktop-info-page .img {
+  position: absolute;
+  width: 886px;
+  height: 520px;
+  top: 0;
+  left: 0;
+}
+
+.desktop-info-page .rectangle-2 {
+  position: absolute;
+  width: 903px;
+  height: 520px;
+  top: 0;
+  left: 0;
+  border-radius: 20px;
+  background: linear-gradient(180deg, rgba(14, 17, 17, 0) 0%, rgb(14, 17, 17) 100%);
+}
+
+.desktop-info-page .overlap-3 {
+  position: absolute;
   width: 2169px;
   height: 820px;
-  top: 4697px;
+  top: 6053px;
   left: -122px;
 }
 
@@ -31,21 +141,12 @@
   object-fit: cover;
 }
 
-.desktop-info-page .overlap-group {
+.desktop-info-page .overlap-4 {
   position: absolute;
   width: 2169px;
-  height: 820px;
+  height: 779px;
   top: 0;
   left: 0;
-}
-
-.desktop-info-page .img {
-  position: absolute;
-  width: 1px;
-  height: 538px;
-  top: 240px;
-  left: 366px;
-  object-fit: cover;
 }
 
 .desktop-info-page .line-2 {
@@ -53,7 +154,7 @@
   width: 1px;
   height: 538px;
   top: 240px;
-  left: 438px;
+  left: 366px;
   object-fit: cover;
 }
 
@@ -62,7 +163,7 @@
   width: 1px;
   height: 538px;
   top: 240px;
-  left: 518px;
+  left: 438px;
   object-fit: cover;
 }
 
@@ -71,7 +172,7 @@
   width: 1px;
   height: 538px;
   top: 240px;
-  left: 598px;
+  left: 518px;
   object-fit: cover;
 }
 
@@ -80,7 +181,7 @@
   width: 1px;
   height: 538px;
   top: 240px;
-  left: 678px;
+  left: 598px;
   object-fit: cover;
 }
 
@@ -89,7 +190,7 @@
   width: 1px;
   height: 538px;
   top: 240px;
-  left: 758px;
+  left: 678px;
   object-fit: cover;
 }
 
@@ -98,11 +199,20 @@
   width: 1px;
   height: 538px;
   top: 240px;
-  left: 838px;
+  left: 758px;
   object-fit: cover;
 }
 
 .desktop-info-page .line-8 {
+  position: absolute;
+  width: 1px;
+  height: 538px;
+  top: 240px;
+  left: 838px;
+  object-fit: cover;
+}
+
+.desktop-info-page .line-9 {
   position: absolute;
   width: 1px;
   height: 551px;
@@ -111,7 +221,7 @@
   object-fit: cover;
 }
 
-.desktop-info-page .line-9 {
+.desktop-info-page .line-10 {
   position: absolute;
   width: 1px;
   height: 549px;
@@ -120,21 +230,12 @@
   object-fit: cover;
 }
 
-.desktop-info-page .line-10 {
-  position: absolute;
-  width: 1px;
-  height: 538px;
-  top: 240px;
-  left: 1078px;
-  object-fit: cover;
-}
-
 .desktop-info-page .line-11 {
   position: absolute;
   width: 1px;
   height: 538px;
   top: 240px;
-  left: 1158px;
+  left: 1078px;
   object-fit: cover;
 }
 
@@ -143,7 +244,7 @@
   width: 1px;
   height: 538px;
   top: 240px;
-  left: 1238px;
+  left: 1158px;
   object-fit: cover;
 }
 
@@ -152,7 +253,7 @@
   width: 1px;
   height: 538px;
   top: 240px;
-  left: 1318px;
+  left: 1238px;
   object-fit: cover;
 }
 
@@ -161,7 +262,7 @@
   width: 1px;
   height: 538px;
   top: 240px;
-  left: 1398px;
+  left: 1318px;
   object-fit: cover;
 }
 
@@ -170,7 +271,7 @@
   width: 1px;
   height: 538px;
   top: 240px;
-  left: 1478px;
+  left: 1398px;
   object-fit: cover;
 }
 
@@ -179,7 +280,7 @@
   width: 1px;
   height: 538px;
   top: 240px;
-  left: 1558px;
+  left: 1478px;
   object-fit: cover;
 }
 
@@ -188,7 +289,7 @@
   width: 1px;
   height: 538px;
   top: 240px;
-  left: 1638px;
+  left: 1558px;
   object-fit: cover;
 }
 
@@ -197,7 +298,7 @@
   width: 1px;
   height: 538px;
   top: 240px;
-  left: 1718px;
+  left: 1638px;
   object-fit: cover;
 }
 
@@ -206,7 +307,7 @@
   width: 1px;
   height: 538px;
   top: 240px;
-  left: 1798px;
+  left: 1718px;
   object-fit: cover;
 }
 
@@ -214,17 +315,17 @@
   position: absolute;
   width: 1px;
   height: 538px;
-  top: 282px;
-  left: 1878px;
+  top: 240px;
+  left: 1798px;
   object-fit: cover;
 }
 
 .desktop-info-page .line-21 {
   position: absolute;
   width: 1px;
-  height: 129px;
-  top: 42px;
-  left: 286px;
+  height: 538px;
+  top: 241px;
+  left: 1878px;
   object-fit: cover;
 }
 
@@ -233,7 +334,7 @@
   width: 1px;
   height: 129px;
   top: 0;
-  left: 366px;
+  left: 286px;
   object-fit: cover;
 }
 
@@ -242,7 +343,7 @@
   width: 1px;
   height: 129px;
   top: 0;
-  left: 438px;
+  left: 366px;
   object-fit: cover;
 }
 
@@ -251,7 +352,7 @@
   width: 1px;
   height: 129px;
   top: 0;
-  left: 518px;
+  left: 438px;
   object-fit: cover;
 }
 
@@ -260,7 +361,7 @@
   width: 1px;
   height: 129px;
   top: 0;
-  left: 598px;
+  left: 518px;
   object-fit: cover;
 }
 
@@ -269,7 +370,7 @@
   width: 1px;
   height: 129px;
   top: 0;
-  left: 678px;
+  left: 598px;
   object-fit: cover;
 }
 
@@ -278,7 +379,7 @@
   width: 1px;
   height: 129px;
   top: 0;
-  left: 758px;
+  left: 678px;
   object-fit: cover;
 }
 
@@ -287,11 +388,20 @@
   width: 1px;
   height: 129px;
   top: 0;
-  left: 838px;
+  left: 758px;
   object-fit: cover;
 }
 
 .desktop-info-page .line-29 {
+  position: absolute;
+  width: 1px;
+  height: 129px;
+  top: 0;
+  left: 838px;
+  object-fit: cover;
+}
+
+.desktop-info-page .line-30 {
   position: absolute;
   width: 1px;
   height: 142px;
@@ -300,7 +410,7 @@
   object-fit: cover;
 }
 
-.desktop-info-page .line-30 {
+.desktop-info-page .line-31 {
   position: absolute;
   width: 1px;
   height: 146px;
@@ -309,7 +419,7 @@
   object-fit: cover;
 }
 
-.desktop-info-page .line-31 {
+.desktop-info-page .line-32 {
   position: absolute;
   width: 1px;
   height: 129px;
@@ -318,7 +428,7 @@
   object-fit: cover;
 }
 
-.desktop-info-page .line-32 {
+.desktop-info-page .line-33 {
   position: absolute;
   width: 1px;
   height: 129px;
@@ -327,7 +437,7 @@
   object-fit: cover;
 }
 
-.desktop-info-page .line-33 {
+.desktop-info-page .line-34 {
   position: absolute;
   width: 1px;
   height: 129px;
@@ -336,7 +446,7 @@
   object-fit: cover;
 }
 
-.desktop-info-page .line-34 {
+.desktop-info-page .line-35 {
   position: absolute;
   width: 1px;
   height: 129px;
@@ -345,7 +455,7 @@
   object-fit: cover;
 }
 
-.desktop-info-page .line-35 {
+.desktop-info-page .line-36 {
   position: absolute;
   width: 1px;
   height: 129px;
@@ -354,7 +464,7 @@
   object-fit: cover;
 }
 
-.desktop-info-page .line-36 {
+.desktop-info-page .line-37 {
   position: absolute;
   width: 1px;
   height: 129px;
@@ -363,7 +473,7 @@
   object-fit: cover;
 }
 
-.desktop-info-page .line-37 {
+.desktop-info-page .line-38 {
   position: absolute;
   width: 1px;
   height: 129px;
@@ -372,7 +482,7 @@
   object-fit: cover;
 }
 
-.desktop-info-page .line-38 {
+.desktop-info-page .line-39 {
   position: absolute;
   width: 1px;
   height: 129px;
@@ -381,7 +491,7 @@
   object-fit: cover;
 }
 
-.desktop-info-page .line-39 {
+.desktop-info-page .line-40 {
   position: absolute;
   width: 1px;
   height: 129px;
@@ -390,7 +500,7 @@
   object-fit: cover;
 }
 
-.desktop-info-page .line-40 {
+.desktop-info-page .line-41 {
   position: absolute;
   width: 1px;
   height: 129px;
@@ -399,16 +509,16 @@
   object-fit: cover;
 }
 
-.desktop-info-page .line-41 {
+.desktop-info-page .line-42 {
   position: absolute;
   width: 1px;
   height: 129px;
-  top: 42px;
+  top: 0;
   left: 1878px;
   object-fit: cover;
 }
 
-.desktop-info-page .ellipse {
+.desktop-info-page .ellipse-3 {
   position: absolute;
   width: 563px;
   height: 563px;
@@ -426,7 +536,7 @@
   );
 }
 
-.desktop-info-page .rectangle {
+.desktop-info-page .rectangle-3 {
   position: absolute;
   width: 1194px;
   height: 113px;
@@ -438,7 +548,7 @@
   border-color: #ffffff33;
 }
 
-.desktop-info-page .rectangle-2 {
+.desktop-info-page .rectangle-4 {
   position: absolute;
   width: 500px;
   height: 113px;
@@ -450,7 +560,7 @@
   border-color: #ffffff33;
 }
 
-.desktop-info-page .rectangle-3 {
+.desktop-info-page .rectangle-5 {
   position: absolute;
   width: 514px;
   height: 113px;
@@ -462,7 +572,7 @@
   border-color: #ffffff33;
 }
 
-.desktop-info-page .rectangle-4 {
+.desktop-info-page .rectangle-6 {
   position: absolute;
   width: 425px;
   height: 113px;
@@ -474,7 +584,7 @@
   border-color: #ffffff33;
 }
 
-.desktop-info-page .rectangle-5 {
+.desktop-info-page .rectangle-7 {
   position: absolute;
   width: 425px;
   height: 113px;
@@ -486,7 +596,7 @@
   border-color: #ffffff33;
 }
 
-.desktop-info-page .rectangle-6 {
+.desktop-info-page .rectangle-8 {
   position: absolute;
   width: 359px;
   height: 113px;
@@ -503,7 +613,7 @@
   width: 141px;
   top: 315px;
   left: 527px;
-  font-family: "Poppins-Regular", Helvetica;
+  font-family: "Poppins", Helvetica;
   font-weight: 400;
   color: #ffffff;
   font-size: 20px;
@@ -525,7 +635,7 @@
   width: 332px;
   top: 315px;
   left: 1066px;
-  font-family: "Poppins-Regular", Helvetica;
+  font-family: "Poppins", Helvetica;
   font-weight: 400;
   color: #ffffff;
   font-size: 20px;
@@ -547,7 +657,7 @@
   width: 332px;
   top: 460px;
   left: 777px;
-  font-family: "Poppins-Regular", Helvetica;
+  font-family: "Poppins", Helvetica;
   font-weight: 400;
   color: #ffffff;
   font-size: 20px;
@@ -569,7 +679,7 @@
   width: 296px;
   top: 460px;
   left: 1330px;
-  font-family: "Poppins-Regular", Helvetica;
+  font-family: "Poppins", Helvetica;
   font-weight: 400;
   color: #ffffff;
   font-size: 20px;
@@ -591,7 +701,7 @@
   width: 258px;
   top: 607px;
   left: 1072px;
-  font-family: "Poppins-Regular", Helvetica;
+  font-family: "Poppins", Helvetica;
   font-weight: 400;
   color: #ffffff;
   font-size: 20px;
@@ -613,7 +723,7 @@
   width: 296px;
   top: 607px;
   left: 1472px;
-  font-family: "Poppins-Regular", Helvetica;
+  font-family: "Poppins", Helvetica;
   font-weight: 400;
   color: #ffffff;
   font-size: 20px;
@@ -647,7 +757,7 @@
   width: 212px;
   top: 39px;
   left: 255px;
-  font-family: "Poppins-Regular", Helvetica;
+  font-family: "Poppins", Helvetica;
   font-weight: 400;
   color: #ffffff;
   font-size: 20px;
@@ -681,7 +791,7 @@
   width: 298px;
   top: 39px;
   left: 90px;
-  font-family: "Poppins-Regular", Helvetica;
+  font-family: "Poppins", Helvetica;
   font-weight: 400;
   color: #ffffff;
   font-size: 20px;
@@ -698,7 +808,7 @@
   left: 55px;
 }
 
-.desktop-info-page .ellipse-2 {
+.desktop-info-page .ellipse-4 {
   position: absolute;
   width: 786px;
   height: 786px;
@@ -716,7 +826,7 @@
   );
 }
 
-.desktop-info-page .overlap-2 {
+.desktop-info-page .overlap-5 {
   position: absolute;
   width: 2253px;
   height: 1170px;
@@ -724,7 +834,7 @@
   left: -285px;
 }
 
-.desktop-info-page .overlap-3 {
+.desktop-info-page .overlap-6 {
   position: absolute;
   width: 2253px;
   height: 1170px;
@@ -732,7 +842,7 @@
   left: 0;
 }
 
-.desktop-info-page .overlap-4 {
+.desktop-info-page .overlap-7 {
   position: absolute;
   width: 575px;
   height: 574px;
@@ -740,7 +850,7 @@
   left: 0;
 }
 
-.desktop-info-page .ellipse-3 {
+.desktop-info-page .ellipse-5 {
   position: absolute;
   width: 574px;
   height: 574px;
@@ -767,7 +877,7 @@
   object-fit: cover;
 }
 
-.desktop-info-page .overlap-5 {
+.desktop-info-page .overlap-8 {
   position: absolute;
   width: 1759px;
   height: 593px;
@@ -775,7 +885,7 @@
   left: 494px;
 }
 
-.desktop-info-page .ellipse-4 {
+.desktop-info-page .ellipse-6 {
   position: absolute;
   width: 574px;
   height: 574px;
@@ -798,7 +908,7 @@
   width: 902px;
   top: 249px;
   left: 0;
-  font-family: "Poppins-Light", Helvetica;
+  font-family: "Poppins", Helvetica;
   font-weight: 300;
   color: #ffffff;
   font-size: 16px;
@@ -807,7 +917,7 @@
   line-height: normal;
 }
 
-.desktop-info-page .group {
+.desktop-info-page .group-2 {
   position: absolute;
   width: 719px;
   height: 593px;
@@ -819,7 +929,7 @@
   position: absolute;
   top: 1060px;
   left: 494px;
-  font-family: "Poppins-Light", Helvetica;
+  font-family: "Poppins", Helvetica;
   font-weight: 300;
   color: #ffffff;
   font-size: 20px;
@@ -828,7 +938,7 @@
   line-height: normal;
 }
 
-.desktop-info-page .group-2 {
+.desktop-info-page .group-3 {
   position: absolute;
   width: 750px;
   height: 108px;
@@ -850,7 +960,7 @@
   background-clip: text;
   -webkit-text-fill-color: transparent;
   text-fill-color: transparent;
-  font-family: "Poppins-Bold", Helvetica;
+  font-family: "Poppins", Helvetica;
   font-weight: 700;
   color: transparent;
   font-size: 59px;
@@ -874,7 +984,7 @@
   background-clip: text;
   -webkit-text-fill-color: transparent;
   text-fill-color: transparent;
-  font-family: "Poppins-Bold", Helvetica;
+  font-family: "Poppins", Helvetica;
   font-weight: 700;
   color: transparent;
   font-size: 59px;
@@ -896,12 +1006,12 @@
   border-color: #76f49b;
 }
 
-.desktop-info-page .learn-more {
+.desktop-info-page .get-started {
   position: absolute;
-  width: 123px;
+  width: 129px;
   top: 14px;
-  left: 48px;
-  font-family: "Poppins-Medium", Helvetica;
+  left: 45px;
+  font-family: "Poppins", Helvetica;
   font-weight: 500;
   color: #ffffff;
   font-size: 20px;
@@ -914,7 +1024,7 @@
   position: absolute;
   top: 1111px;
   left: 687px;
-  font-family: "Poppins-Medium", Helvetica;
+  font-family: "Poppins", Helvetica;
   font-weight: 500;
   color: #ffffff;
   font-size: 15px;
@@ -923,7 +1033,7 @@
   line-height: normal;
 }
 
-.desktop-info-page .overlap-6 {
+.desktop-info-page .overlap-9 {
   position: absolute;
   width: 167px;
   height: 70px;
@@ -931,7 +1041,7 @@
   left: 491px;
 }
 
-.desktop-info-page .ellipse-5 {
+.desktop-info-page .ellipse-7 {
   position: absolute;
   width: 69px;
   height: 68px;
@@ -940,7 +1050,7 @@
   object-fit: cover;
 }
 
-.desktop-info-page .ellipse-6 {
+.desktop-info-page .ellipse-8 {
   position: absolute;
   width: 69px;
   height: 68px;
@@ -949,7 +1059,7 @@
   object-fit: cover;
 }
 
-.desktop-info-page .ellipse-7 {
+.desktop-info-page .ellipse-9 {
   position: absolute;
   width: 69px;
   height: 69px;
@@ -963,7 +1073,7 @@
   width: 131px;
   top: 636px;
   left: 494px;
-  font-family: "Poppins-Light", Helvetica;
+  font-family: "Poppins", Helvetica;
   font-weight: 300;
   color: #ffffff;
   font-size: 16px;
@@ -974,7 +1084,7 @@
 }
 
 .desktop-info-page .span {
-  font-family: "Poppins-Light", Helvetica;
+  font-family: "Poppins", Helvetica;
   font-weight: 300;
   color: #ffffff;
   font-size: 16px;
@@ -985,7 +1095,7 @@
   position: absolute;
   top: 376px;
   left: 1210px;
-  font-family: "Poppins-Light", Helvetica;
+  font-family: "Poppins", Helvetica;
   font-weight: 300;
   color: #ffffff;
   font-size: 16px;
@@ -1006,7 +1116,7 @@
   position: absolute;
   top: -1px;
   left: 0;
-  font-family: "Poppins-Light", Helvetica;
+  font-family: "Poppins", Helvetica;
   font-weight: 300;
   color: #ffffff;
   font-size: 16px;
@@ -1019,7 +1129,7 @@
   position: absolute;
   top: 376px;
   left: 1541px;
-  font-family: "Poppins-Light", Helvetica;
+  font-family: "Poppins", Helvetica;
   font-weight: 300;
   color: #ffffff;
   font-size: 16px;
@@ -1032,7 +1142,7 @@
   position: absolute;
   top: 376px;
   left: 1390px;
-  font-family: "Poppins-Light", Helvetica;
+  font-family: "Poppins", Helvetica;
   font-weight: 300;
   color: #ffffff;
   font-size: 16px;
@@ -1045,7 +1155,7 @@
   position: absolute;
   top: 376px;
   left: 1037px;
-  font-family: "Poppins-Light", Helvetica;
+  font-family: "Poppins", Helvetica;
   font-weight: 300;
   color: #ffffff;
   font-size: 16px;
@@ -1080,7 +1190,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  font-family: "Poppins-Regular", Helvetica;
+  font-family: "Poppins", Helvetica;
   font-weight: 400;
   color: #ffffff;
   font-size: 16px;
@@ -1093,7 +1203,7 @@
   position: absolute;
   top: 376px;
   left: 577px;
-  font-family: "Poppins-Bold", Helvetica;
+  font-family: "Poppins", Helvetica;
   font-weight: 700;
   color: #ffffff;
   font-size: 16px;
@@ -1102,7 +1212,7 @@
   line-height: normal;
 }
 
-.desktop-info-page .ellipse-8 {
+.desktop-info-page .ellipse-10 {
   position: absolute;
   width: 786px;
   height: 786px;
@@ -1124,7 +1234,7 @@
   position: absolute;
   top: 3354px;
   left: 873px;
-  font-family: "Poppins-SemiBold", Helvetica;
+  font-family: "Poppins", Helvetica;
   font-weight: 600;
   color: #ffffff;
   font-size: 38px;
@@ -1136,7 +1246,7 @@
 .desktop-info-page .original-2 {
   position: absolute;
   width: 415px;
-  top: 4246px;
+  top: 5684px;
   left: 666px;
   text-shadow: 0px 4px 5px #72dbfb7d;
   background: linear-gradient(
@@ -1149,7 +1259,7 @@
   background-clip: text;
   -webkit-text-fill-color: transparent;
   text-fill-color: transparent;
-  font-family: "Poppins-Bold", Helvetica;
+  font-family: "Poppins", Helvetica;
   font-weight: 700;
   color: transparent;
   font-size: 80px;
@@ -1161,7 +1271,7 @@
 .desktop-info-page .original-3 {
   position: absolute;
   width: 415px;
-  top: 4367px;
+  top: 5805px;
   left: 832px;
   text-shadow: 0px 4px 5px #72dbfb7d;
   background: linear-gradient(
@@ -1174,7 +1284,7 @@
   background-clip: text;
   -webkit-text-fill-color: transparent;
   text-fill-color: transparent;
-  font-family: "Poppins-Bold", Helvetica;
+  font-family: "Poppins", Helvetica;
   font-weight: 700;
   color: transparent;
   font-size: 80px;
@@ -1185,10 +1295,10 @@
 
 .desktop-info-page .original-4 {
   position: absolute;
-  width: 770px;
-  top: 5730px;
-  left: 970px;
-  font-family: "Poppins-Regular", Helvetica;
+  width: 658px;
+  top: 4790px;
+  left: 180px;
+  font-family: "Poppins", Helvetica;
   font-weight: 400;
   color: #ffffff;
   font-size: 25px;
@@ -1227,11 +1337,11 @@
   height: 170px;
   top: -20px;
   left: -24px;
-  background-image: url(./img/rectangle-51-4.svg);
+  background-image: url(./img/rectangle-51.svg);
   background-size: 100% 100%;
 }
 
-.desktop-info-page .overlap-7 {
+.desktop-info-page .overlap-10 {
   position: absolute;
   width: 305px;
   height: 69px;
@@ -1253,7 +1363,7 @@
   width: 239px;
   top: 0;
   left: 66px;
-  font-family: "Poppins-SemiBold", Helvetica;
+  font-family: "Poppins", Helvetica;
   font-weight: 600;
   color: #ffffff;
   font-size: 18px;
@@ -1262,7 +1372,7 @@
   line-height: normal;
 }
 
-.desktop-info-page .rectangle-7 {
+.desktop-info-page .rectangle-9 {
   position: absolute;
   width: 66px;
   height: 65px;
@@ -1287,7 +1397,7 @@
   width: 310px;
   top: 79px;
   left: 137px;
-  font-family: "Poppins-Light", Helvetica;
+  font-family: "Poppins", Helvetica;
   font-weight: 300;
   color: #ffffff;
   font-size: 14px;
@@ -1296,7 +1406,7 @@
   line-height: normal;
 }
 
-.desktop-info-page .overlap-wrapper {
+.desktop-info-page .group-4 {
   position: absolute;
   width: 461px;
   height: 122px;
@@ -1304,13 +1414,13 @@
   left: 513px;
 }
 
-.desktop-info-page .overlap-8 {
+.desktop-info-page .overlap-11 {
   position: relative;
   width: 505px;
   height: 170px;
   top: -20px;
   left: -24px;
-  background-image: url(./img/rectangle-51-5.svg);
+  background-image: url(./img/rectangle-51-1.svg);
   background-size: 100% 100%;
 }
 
@@ -1327,7 +1437,7 @@
   width: 160px;
   top: 0;
   left: 66px;
-  font-family: "Poppins-SemiBold", Helvetica;
+  font-family: "Poppins", Helvetica;
   font-weight: 600;
   color: #ffffff;
   font-size: 18px;
@@ -1336,7 +1446,7 @@
   line-height: normal;
 }
 
-.desktop-info-page .group-3 {
+.desktop-info-page .group-5 {
   position: absolute;
   width: 461px;
   height: 122px;
@@ -1344,13 +1454,13 @@
   left: 1026px;
 }
 
-.desktop-info-page .overlap-9 {
+.desktop-info-page .overlap-12 {
   position: relative;
   width: 505px;
   height: 170px;
   top: -20px;
   left: -24px;
-  background-image: url(./img/image.svg);
+  background-image: url(./img/rectangle-51-2.svg);
   background-size: 100% 100%;
 }
 
@@ -1367,7 +1477,7 @@
   width: 233px;
   top: 0;
   left: 66px;
-  font-family: "Poppins-SemiBold", Helvetica;
+  font-family: "Poppins", Helvetica;
   font-weight: 600;
   color: #ffffff;
   font-size: 18px;
@@ -1381,7 +1491,7 @@
   width: 310px;
   top: 79px;
   left: 137px;
-  font-family: "Poppins-Light", Helvetica;
+  font-family: "Poppins", Helvetica;
   font-weight: 300;
   color: #ffffff;
   font-size: 14px;
@@ -1390,7 +1500,7 @@
   line-height: normal;
 }
 
-.desktop-info-page .group-4 {
+.desktop-info-page .group-6 {
   position: absolute;
   width: 461px;
   height: 122px;
@@ -1398,7 +1508,7 @@
   left: 0;
 }
 
-.desktop-info-page .overlap-10 {
+.desktop-info-page .overlap-13 {
   position: relative;
   width: 505px;
   height: 170px;
@@ -1416,7 +1526,7 @@
   left: 58px;
 }
 
-.desktop-info-page .rectangle-8 {
+.desktop-info-page .rectangle-10 {
   position: absolute;
   width: 66px;
   height: 65px;
@@ -1441,7 +1551,7 @@
   width: 247px;
   top: 0;
   left: 66px;
-  font-family: "Poppins-SemiBold", Helvetica;
+  font-family: "Poppins", Helvetica;
   font-weight: 600;
   color: #ffffff;
   font-size: 18px;
@@ -1459,7 +1569,7 @@
   object-fit: cover;
 }
 
-.desktop-info-page .group-5 {
+.desktop-info-page .group-7 {
   position: absolute;
   width: 461px;
   height: 122px;
@@ -1467,13 +1577,13 @@
   left: 513px;
 }
 
-.desktop-info-page .overlap-11 {
+.desktop-info-page .overlap-14 {
   position: relative;
   width: 505px;
   height: 170px;
   top: -20px;
   left: -24px;
-  background-image: url(./img/rectangle-51.svg);
+  background-image: url(./img/rectangle-51-4.svg);
   background-size: 100% 100%;
 }
 
@@ -1489,11 +1599,11 @@
   width: 220px;
   top: 0;
   left: 64px;
-  font-family: "Poppins-SemiBold", Helvetica;
   font-weight: 600;
   font-size: 18px;
   text-align: center;
   position: absolute;
+  font-family: "Poppins", Helvetica;
   color: #ffffff;
   letter-spacing: 0;
   line-height: normal;
@@ -1513,7 +1623,7 @@
   width: 335px;
   top: 78px;
   left: 136px;
-  font-family: "Poppins-Light", Helvetica;
+  font-family: "Poppins", Helvetica;
   font-weight: 300;
   color: #ffffff;
   font-size: 14px;
@@ -1522,7 +1632,7 @@
   line-height: normal;
 }
 
-.desktop-info-page .group-6 {
+.desktop-info-page .group-8 {
   position: absolute;
   width: 461px;
   height: 122px;
@@ -1530,13 +1640,13 @@
   left: 1026px;
 }
 
-.desktop-info-page .overlap-12 {
+.desktop-info-page .overlap-15 {
   position: relative;
   width: 505px;
   height: 170px;
   top: -20px;
   left: -24px;
-  background-image: url(./img/rectangle-51-2.svg);
+  background-image: url(./img/rectangle-51-5.svg);
   background-size: 100% 100%;
 }
 
@@ -1564,7 +1674,7 @@
   width: 229px;
   top: 47px;
   left: 125px;
-  font-family: "Poppins-SemiBold", Helvetica;
+  font-family: "Poppins", Helvetica;
   font-weight: 600;
   color: #ffffff;
   font-size: 18px;
@@ -1578,7 +1688,7 @@
   width: 310px;
   top: 78px;
   left: 138px;
-  font-family: "Poppins-Light", Helvetica;
+  font-family: "Poppins", Helvetica;
   font-weight: 300;
   color: #ffffff;
   font-size: 14px;
@@ -1592,8 +1702,8 @@
   width: 315px;
   top: 138px;
   left: 584px;
-  font-family: "Poppins-Medium", Helvetica;
-  font-weight: 500;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
   color: #ffffffe6;
   font-size: 14px;
   text-align: center;
@@ -1601,7 +1711,7 @@
   line-height: normal;
 }
 
-.desktop-info-page .overlap-13 {
+.desktop-info-page .overlap-16 {
   position: absolute;
   width: 1560px;
   height: 177px;
@@ -1624,7 +1734,7 @@
   width: 360px;
   top: 44px;
   left: 72px;
-  font-family: "Poppins-SemiBold", Helvetica;
+  font-family: "Poppins", Helvetica;
   font-weight: 600;
   color: #ffffff;
   font-size: 38px;
@@ -1638,7 +1748,7 @@
   width: 146px;
   top: 44px;
   left: 628px;
-  font-family: "Poppins-SemiBold", Helvetica;
+  font-family: "Poppins", Helvetica;
   font-weight: 600;
   color: #ffffff;
   font-size: 38px;
@@ -1653,7 +1763,7 @@
   width: 75px;
   top: 40px;
   left: 958px;
-  font-family: "Poppins-SemiBold", Helvetica;
+  font-family: "Poppins", Helvetica;
   font-weight: 600;
   color: #ffffff;
   font-size: 38px;
@@ -1668,7 +1778,7 @@
   width: 73px;
   top: 40px;
   left: 1262px;
-  font-family: "Poppins-SemiBold", Helvetica;
+  font-family: "Poppins", Helvetica;
   font-weight: 600;
   color: #ffffff;
   font-size: 38px;
@@ -1682,7 +1792,7 @@
   position: absolute;
   top: 104px;
   left: 641px;
-  font-family: "Poppins-Light", Helvetica;
+  font-family: "Poppins", Helvetica;
   font-weight: 300;
   color: #ffffff;
   font-size: 22px;
@@ -1696,7 +1806,7 @@
   position: absolute;
   top: 104px;
   left: 926px;
-  font-family: "Poppins-Light", Helvetica;
+  font-family: "Poppins", Helvetica;
   font-weight: 300;
   color: #ffffff;
   font-size: 22px;
@@ -1710,7 +1820,7 @@
   position: absolute;
   top: 104px;
   left: 1211px;
-  font-family: "Poppins-Light", Helvetica;
+  font-family: "Poppins", Helvetica;
   font-weight: 300;
   color: #ffffff;
   font-size: 22px;
@@ -1720,7 +1830,7 @@
   white-space: nowrap;
 }
 
-.desktop-info-page .group-7 {
+.desktop-info-page .group-9 {
   position: absolute;
   width: 83px;
   height: 22px;
@@ -1732,7 +1842,7 @@
   position: absolute;
   top: 0;
   left: 24px;
-  font-family: "Inter-Regular", Helvetica;
+  font-family: "Inter", Helvetica;
   font-weight: 400;
   color: #6ef795;
   font-size: 18px;
@@ -1753,7 +1863,7 @@
   position: absolute;
   top: 1251px;
   left: 386px;
-  font-family: "Inter-Regular", Helvetica;
+  font-family: "Inter", Helvetica;
   font-weight: 400;
   color: #6ef795;
   font-size: 18px;
@@ -1770,7 +1880,7 @@
   object-fit: cover;
 }
 
-.desktop-info-page .group-8 {
+.desktop-info-page .group-10 {
   position: absolute;
   width: 83px;
   height: 22px;
@@ -1778,7 +1888,7 @@
   left: 518px;
 }
 
-.desktop-info-page .group-9 {
+.desktop-info-page .group-11 {
   position: absolute;
   width: 83px;
   height: 22px;
@@ -1786,7 +1896,7 @@
   left: 674px;
 }
 
-.desktop-info-page .group-10 {
+.desktop-info-page .group-12 {
   position: absolute;
   width: 450px;
   height: 550px;
@@ -1794,7 +1904,7 @@
   left: 211px;
 }
 
-.desktop-info-page .overlap-14 {
+.desktop-info-page .overlap-17 {
   position: relative;
   width: 446px;
   height: 550px;
@@ -1809,7 +1919,7 @@
   width: 366px;
   top: 313px;
   left: 35px;
-  font-family: "Poppins-Light", Helvetica;
+  font-family: "Poppins", Helvetica;
   font-weight: 300;
   color: #ffffff;
   font-size: 18px;
@@ -1818,7 +1928,7 @@
   line-height: normal;
 }
 
-.desktop-info-page .group-11 {
+.desktop-info-page .group-13 {
   position: absolute;
   width: 73px;
   height: 32px;
@@ -1838,7 +1948,7 @@
   width: 40px;
   top: 11px;
   left: 15px;
-  font-family: "Poppins-Light", Helvetica;
+  font-family: "Poppins", Helvetica;
   font-weight: 300;
   color: #ffffff;
   font-size: 14px;
@@ -1853,7 +1963,7 @@
   width: 253px;
   top: 214px;
   left: 35px;
-  font-family: "Poppins-SemiBold", Helvetica;
+  font-family: "Poppins", Helvetica;
   font-weight: 600;
   color: #ffffff;
   font-size: 24px;
@@ -1862,7 +1972,7 @@
   line-height: normal;
 }
 
-.desktop-info-page .line-42 {
+.desktop-info-page .line-43 {
   position: absolute;
   width: 366px;
   height: 2px;
@@ -1879,7 +1989,7 @@
   object-fit: cover;
 }
 
-.desktop-info-page .group-12 {
+.desktop-info-page .group-14 {
   position: absolute;
   width: 494px;
   height: 598px;
@@ -1887,7 +1997,7 @@
   left: 713px;
 }
 
-.desktop-info-page .group-13 {
+.desktop-info-page .group-15 {
   position: absolute;
   width: 494px;
   height: 598px;
@@ -1899,7 +2009,7 @@
   position: absolute;
   top: 2336px;
   left: 835px;
-  font-family: "Poppins-SemiBold", Helvetica;
+  font-family: "Poppins", Helvetica;
   font-weight: 600;
   color: #ffffff;
   font-size: 38px;
@@ -1912,7 +2022,7 @@
   position: absolute;
   width: 1159px;
   height: 962px;
-  top: 7436px;
+  top: 7120px;
   left: 389px;
 }
 
@@ -1920,7 +2030,7 @@
   position: absolute;
   top: 0;
   left: 409px;
-  font-family: "Poppins-SemiBold", Helvetica;
+  font-family: "Poppins", Helvetica;
   font-weight: 600;
   color: #ffffff;
   font-size: 38px;
@@ -1934,7 +2044,7 @@
   width: 598px;
   top: 212px;
   left: 0;
-  font-family: "Poppins-Medium", Helvetica;
+  font-family: "Poppins", Helvetica;
   font-weight: 500;
   color: #ffffff;
   font-size: 24px;
@@ -1948,7 +2058,7 @@
   width: 1032px;
   top: 282px;
   left: 0;
-  font-family: "Poppins-ExtraLight", Helvetica;
+  font-family: "Poppins", Helvetica;
   font-weight: 200;
   color: #ffffff;
   font-size: 20px;
@@ -1961,7 +2071,7 @@
   position: absolute;
   top: 471px;
   left: 0;
-  font-family: "Poppins-Medium", Helvetica;
+  font-family: "Poppins", Helvetica;
   font-weight: 500;
   color: #ffffff;
   font-size: 24px;
@@ -1970,7 +2080,7 @@
   line-height: normal;
 }
 
-.desktop-info-page .line-43 {
+.desktop-info-page .line-44 {
   position: absolute;
   width: 1143px;
   height: 2px;
@@ -1978,7 +2088,7 @@
   left: 0;
 }
 
-.desktop-info-page .line-44 {
+.desktop-info-page .line-45 {
   position: absolute;
   width: 1143px;
   height: 2px;
@@ -1990,28 +2100,7 @@
   position: absolute;
   top: 576px;
   left: 0;
-  font-family: "Poppins-Medium", Helvetica;
-  font-weight: 500;
-  color: #ffffff;
-  font-size: 24px;
-  text-align: justify;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.desktop-info-page .line-45 {
-  position: absolute;
-  width: 1143px;
-  height: 2px;
-  top: 644px;
-  left: 0;
-}
-
-.desktop-info-page .original-17 {
-  position: absolute;
-  top: 681px;
-  left: 0;
-  font-family: "Poppins-Medium", Helvetica;
+  font-family: "Poppins", Helvetica;
   font-weight: 500;
   color: #ffffff;
   font-size: 24px;
@@ -2024,15 +2113,15 @@
   position: absolute;
   width: 1143px;
   height: 2px;
-  top: 749px;
+  top: 644px;
   left: 0;
 }
 
-.desktop-info-page .original-18 {
+.desktop-info-page .original-17 {
   position: absolute;
-  top: 786px;
+  top: 681px;
   left: 0;
-  font-family: "Poppins-Medium", Helvetica;
+  font-family: "Poppins", Helvetica;
   font-weight: 500;
   color: #ffffff;
   font-size: 24px;
@@ -2045,15 +2134,15 @@
   position: absolute;
   width: 1143px;
   height: 2px;
-  top: 855px;
+  top: 749px;
   left: 0;
 }
 
-.desktop-info-page .original-19 {
+.desktop-info-page .original-18 {
   position: absolute;
-  top: 891px;
+  top: 786px;
   left: 0;
-  font-family: "Poppins-Medium", Helvetica;
+  font-family: "Poppins", Helvetica;
   font-weight: 500;
   color: #ffffff;
   font-size: 24px;
@@ -2063,6 +2152,27 @@
 }
 
 .desktop-info-page .line-48 {
+  position: absolute;
+  width: 1143px;
+  height: 2px;
+  top: 855px;
+  left: 0;
+}
+
+.desktop-info-page .original-19 {
+  position: absolute;
+  top: 891px;
+  left: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 24px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop-info-page .line-49 {
   position: absolute;
   width: 1143px;
   height: 2px;
@@ -2118,11 +2228,11 @@
   left: 1116px;
 }
 
-.desktop-info-page .overlap-15 {
+.desktop-info-page .overlap-18 {
   position: absolute;
   width: 2457px;
   height: 2132px;
-  top: 8632px;
+  top: 8316px;
   left: -291px;
 }
 
@@ -2131,7 +2241,7 @@
   width: 770px;
   top: 281px;
   left: 1261px;
-  font-family: "Poppins-SemiBold", Helvetica;
+  font-family: "Poppins", Helvetica;
   font-weight: 600;
   color: #ffffff;
   font-size: 50px;
@@ -2140,7 +2250,7 @@
   line-height: normal;
 }
 
-.desktop-info-page .overlap-16 {
+.desktop-info-page .overlap-19 {
   position: absolute;
   width: 2457px;
   height: 2132px;
@@ -2148,7 +2258,7 @@
   left: 0;
 }
 
-.desktop-info-page .group-14 {
+.desktop-info-page .group-16 {
   position: absolute;
   width: 1244px;
   height: 1019px;
@@ -2156,14 +2266,14 @@
   left: 0;
 }
 
-.desktop-info-page .overlap-17 {
+.desktop-info-page .overlap-20 {
   position: relative;
   width: 1114px;
   height: 1019px;
   left: 130px;
 }
 
-.desktop-info-page .ellipse-9 {
+.desktop-info-page .ellipse-11 {
   position: absolute;
   width: 673px;
   height: 673px;
@@ -2200,7 +2310,7 @@
   object-fit: cover;
 }
 
-.desktop-info-page .rectangle-9 {
+.desktop-info-page .rectangle-11 {
   position: absolute;
   width: 1920px;
   height: 481px;
@@ -2209,7 +2319,7 @@
   background-color: #0e1111;
 }
 
-.desktop-info-page .line-49 {
+.desktop-info-page .line-50 {
   position: absolute;
   width: 1920px;
   height: 1px;
@@ -2218,7 +2328,7 @@
   object-fit: cover;
 }
 
-.desktop-info-page .ellipse-10 {
+.desktop-info-page .ellipse-12 {
   position: absolute;
   width: 2412px;
   height: 975px;
@@ -2236,7 +2346,7 @@
   );
 }
 
-.desktop-info-page .group-15 {
+.desktop-info-page .group-17 {
   position: absolute;
   width: 1585px;
   height: 281px;
@@ -2244,7 +2354,7 @@
   left: 445px;
 }
 
-.desktop-info-page .line-50 {
+.desktop-info-page .line-51 {
   position: absolute;
   width: 1px;
   height: 264px;
@@ -2267,7 +2377,7 @@
   width: 507px;
   top: 72px;
   left: 26px;
-  font-family: "Poppins-Light", Helvetica;
+  font-family: "Poppins", Helvetica;
   font-weight: 300;
   color: #ffffff;
   font-size: 16px;
@@ -2280,7 +2390,7 @@
   position: absolute;
   top: 253px;
   left: 26px;
-  font-family: "Poppins-ExtraLight", Helvetica;
+  font-family: "Poppins", Helvetica;
   font-weight: 200;
   color: #ffffff;
   font-size: 12px;
@@ -2292,7 +2402,7 @@
   position: absolute;
   top: 23px;
   left: 695px;
-  font-family: "Poppins-SemiBold", Helvetica;
+  font-family: "Poppins", Helvetica;
   font-weight: 600;
   color: #ffffff;
   font-size: 20px;
@@ -2303,10 +2413,10 @@
 .desktop-info-page .text-wrapper-36 {
   top: 120px;
   left: 700px;
-  font-family: "Poppins-Light", Helvetica;
   font-weight: 300;
   font-size: 16px;
   position: absolute;
+  font-family: "Poppins", Helvetica;
   color: #ffffff;
   letter-spacing: 0;
   line-height: normal;
@@ -2316,7 +2426,7 @@
   position: absolute;
   top: 205px;
   left: 700px;
-  font-family: "Poppins-Light", Helvetica;
+  font-family: "Poppins", Helvetica;
   font-weight: 300;
   color: #ffffff;
   font-size: 16px;
@@ -2328,7 +2438,7 @@
   position: absolute;
   top: 248px;
   left: 700px;
-  font-family: "Poppins-Light", Helvetica;
+  font-family: "Poppins", Helvetica;
   font-weight: 300;
   color: #ffffff;
   font-size: 16px;
@@ -2340,7 +2450,7 @@
   position: absolute;
   top: 162px;
   left: 700px;
-  font-family: "Poppins-Light", Helvetica;
+  font-family: "Poppins", Helvetica;
   font-weight: 300;
   color: #ffffff;
   font-size: 16px;
@@ -2353,7 +2463,7 @@
   width: 41px;
   top: 77px;
   left: 700px;
-  font-family: "Poppins-Light", Helvetica;
+  font-family: "Poppins", Helvetica;
   font-weight: 300;
   color: #ffffff;
   font-size: 16px;
@@ -2391,10 +2501,10 @@
 .desktop-info-page .text-wrapper-41 {
   top: 23px;
   left: 1420px;
-  font-family: "Poppins-SemiBold", Helvetica;
   font-weight: 600;
   font-size: 20px;
   position: absolute;
+  font-family: "Poppins", Helvetica;
   color: #ffffff;
   letter-spacing: 0;
   line-height: normal;
@@ -2404,7 +2514,7 @@
   position: absolute;
   top: 162px;
   left: 1420px;
-  font-family: "Poppins-Light", Helvetica;
+  font-family: "Poppins", Helvetica;
   font-weight: 300;
   color: #ffffff;
   font-size: 16px;
@@ -2416,7 +2526,7 @@
   position: absolute;
   top: 77px;
   left: 1420px;
-  font-family: "Poppins-Light", Helvetica;
+  font-family: "Poppins", Helvetica;
   font-weight: 300;
   color: #ffffff;
   font-size: 16px;
@@ -2428,7 +2538,7 @@
   position: absolute;
   top: 248px;
   left: 1420px;
-  font-family: "Poppins-Light", Helvetica;
+  font-family: "Poppins", Helvetica;
   font-weight: 300;
   color: #ffffff;
   font-size: 16px;
@@ -2440,7 +2550,7 @@
   position: absolute;
   top: 120px;
   left: 1420px;
-  font-family: "Poppins-Light", Helvetica;
+  font-family: "Poppins", Helvetica;
   font-weight: 300;
   color: #ffffff;
   font-size: 16px;
@@ -2452,7 +2562,7 @@
   position: absolute;
   top: 205px;
   left: 1420px;
-  font-family: "Poppins-Light", Helvetica;
+  font-family: "Poppins", Helvetica;
   font-weight: 300;
   color: #ffffff;
   font-size: 16px;
@@ -2464,7 +2574,7 @@
   position: absolute;
   top: 23px;
   left: 1019px;
-  font-family: "Poppins-SemiBold", Helvetica;
+  font-family: "Poppins", Helvetica;
   font-weight: 600;
   color: #ffffff;
   font-size: 20px;
@@ -2476,7 +2586,7 @@
   position: absolute;
   top: 120px;
   left: 1019px;
-  font-family: "Poppins-Light", Helvetica;
+  font-family: "Poppins", Helvetica;
   font-weight: 300;
   color: #ffffff;
   font-size: 16px;
@@ -2487,10 +2597,10 @@
 .desktop-info-page .text-wrapper-49 {
   top: 248px;
   left: 1019px;
-  font-family: "Poppins-Light", Helvetica;
   font-weight: 300;
   font-size: 16px;
   position: absolute;
+  font-family: "Poppins", Helvetica;
   color: #ffffff;
   letter-spacing: 0;
   line-height: normal;
@@ -2500,7 +2610,7 @@
   position: absolute;
   top: 77px;
   left: 1019px;
-  font-family: "Poppins-Light", Helvetica;
+  font-family: "Poppins", Helvetica;
   font-weight: 300;
   color: #ffffff;
   font-size: 16px;
@@ -2512,7 +2622,7 @@
   position: absolute;
   top: 205px;
   left: 1019px;
-  font-family: "Poppins-Light", Helvetica;
+  font-family: "Poppins", Helvetica;
   font-weight: 300;
   color: #ffffff;
   font-size: 16px;
@@ -2524,7 +2634,7 @@
   position: absolute;
   top: 162px;
   left: 1019px;
-  font-family: "Poppins-Light", Helvetica;
+  font-family: "Poppins", Helvetica;
   font-weight: 300;
   color: #ffffff;
   font-size: 16px;
@@ -2541,19 +2651,27 @@
   object-fit: cover;
 }
 
-.desktop-info-page .group-16 {
+.desktop-info-page .original-21 {
   position: absolute;
-  width: 1564px;
-  height: 228px;
-  top: 3531px;
+  width: 769px;
+  height: 216px;
+  top: 3890px;
+  left: 971px;
+}
+
+.desktop-info-page .group-18 {
+  position: absolute;
+  width: 322px;
+  height: 113px;
+  top: 3634px;
   left: 180px;
 }
 
-.desktop-info-page .original-21 {
+.desktop-info-page .original-22 {
   position: absolute;
   top: 0;
   left: 0;
-  font-family: "Poppins-SemiBold", Helvetica;
+  font-family: "Poppins", Helvetica;
   font-weight: 600;
   color: #ffffff;
   font-size: 38px;
@@ -2562,29 +2680,7 @@
   line-height: normal;
 }
 
-.desktop-info-page .original-22 {
-  position: absolute;
-  width: 770px;
-  top: 0;
-  left: 790px;
-  font-family: "Poppins-Regular", Helvetica;
-  font-weight: 400;
-  color: transparent;
-  font-size: 25px;
-  text-align: justify;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.desktop-info-page .text-wrapper-53 {
-  color: #ffffff;
-}
-
-.desktop-info-page .text-wrapper-54 {
-  color: #76f49b;
-}
-
-.desktop-info-page .line-51 {
+.desktop-info-page .line-52 {
   position: absolute;
   width: 320px;
   height: 1px;
@@ -2596,9 +2692,9 @@
 .desktop-info-page .original-23 {
   position: absolute;
   width: 213px;
-  top: 5730px;
-  left: 180px;
-  font-family: "Poppins-SemiBold", Helvetica;
+  top: 4546px;
+  left: 1528px;
+  font-family: "Poppins", Helvetica;
   font-weight: 600;
   color: #ffffff;
   font-size: 38px;
@@ -2606,27 +2702,11 @@
   line-height: normal;
 }
 
-.desktop-info-page .line-52 {
+.desktop-info-page .line-53 {
   position: absolute;
   width: 320px;
   height: 1px;
-  top: 5834px;
-  left: 180px;
+  top: 4650px;
+  left: 1420px;
   object-fit: cover;
-}
-
-.desktop-info-page .rectangle-wrapper {
-  position: absolute;
-  width: 1920px;
-  height: 1210px;
-  top: 6028px;
-  left: 0;
-  background-image: url(./img/pexels-andrea-piacquadio-3756679-1.png);
-  background-size: cover;
-  background-position: 50% 50%;
-}
-
-.desktop-info-page .rectangle-10 {
-  height: 1210px;
-  background: linear-gradient(180deg, rgba(14, 17, 17, 0) 0%, rgb(14, 17, 17) 100%);
 }
