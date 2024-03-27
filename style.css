@@ -446,10 +446,10 @@
 
 .desktop-info-page .overlap-3 {
   position: absolute;
-  width: 2171px;
+  width: 2425px;
   height: 1361px;
   top: 5685px;
-  left: -122px;
+  left: -376px;
 }
 
 .desktop-info-page .lines {
@@ -457,13 +457,13 @@
   width: 1593px;
   height: 1163px;
   top: 198px;
-  left: 286px;
+  left: 540px;
 }
 
 .desktop-info-page .what-sets-us-apart {
   width: 427px;
   top: 935px;
-  left: 1390px;
+  left: 1644px;
   position: absolute;
   height: 113px;
 }
@@ -503,7 +503,7 @@
 .desktop-info-page .overlap-wrapper {
   width: 361px;
   top: 935px;
-  left: 996px;
+  left: 1250px;
   position: absolute;
   height: 113px;
 }
@@ -543,7 +543,7 @@
 .desktop-info-page .overlap-group-wrapper {
   width: 427px;
   top: 789px;
-  left: 1239px;
+  left: 1493px;
   position: absolute;
   height: 113px;
 }
@@ -573,7 +573,7 @@
 .desktop-info-page .div-wrapper {
   width: 516px;
   top: 789px;
-  left: 690px;
+  left: 944px;
   position: absolute;
   height: 113px;
 }
@@ -613,7 +613,7 @@
 .desktop-info-page .what-sets-us-apart-2 {
   width: 1196px;
   top: 643px;
-  left: 975px;
+  left: 1229px;
   position: absolute;
   height: 113px;
 }
@@ -653,7 +653,7 @@
 .desktop-info-page .what-sets-us-apart-3 {
   width: 502px;
   top: 643px;
-  left: 440px;
+  left: 694px;
   position: absolute;
   height: 113px;
 }
@@ -693,7 +693,7 @@
 .desktop-info-page .what-sets-us-apart-4 {
   width: 1194px;
   top: 496px;
-  left: 975px;
+  left: 1229px;
   background-color: #131515b2;
   border-radius: 60px;
   border: 1px solid;
@@ -725,22 +725,18 @@
 }
 
 .desktop-info-page .what-sets-us-apart-5 {
-  width: 940px;
+  width: 1196px;
   top: 496px;
   left: 0;
-  background-color: #0e1111b2;
-  border-radius: 60px;
-  border: 1px solid;
-  border-color: #ffffff33;
   position: absolute;
   height: 113px;
 }
 
 .desktop-info-page .text-wrapper-27 {
   position: absolute;
-  width: 212px;
-  top: 39px;
-  left: 255px;
+  width: 332px;
+  top: 40px;
+  left: 590px;
   font-family: "Poppins", Helvetica;
   font-weight: 400;
   color: #ffffff;
@@ -752,7 +748,7 @@
 
 .desktop-info-page .star-password-7 {
   top: 45px;
-  left: 220px;
+  left: 555px;
   position: absolute;
   width: 20px;
   height: 20px;
@@ -763,7 +759,7 @@
   width: 585px;
   height: 241px;
   top: 0;
-  left: 788px;
+  left: 1042px;
 }
 
 .desktop-info-page .original-2 {
@@ -1840,116 +1836,39 @@
   left: 211px;
 }
 
-.desktop-info-page .group-15 {
+.desktop-info-page .steps {
   position: absolute;
-  width: 450px;
+  width: 1514px;
   height: 550px;
   top: 156px;
   left: 0;
 }
 
-.desktop-info-page .overlap-20 {
-  position: relative;
-  width: 446px;
-  height: 550px;
-  border-radius: 15px;
-  box-shadow: var(--glass-1);
-  backdrop-filter: blur(20px) brightness(100%);
-  -webkit-backdrop-filter: blur(20px) brightness(100%);
-}
-
-.desktop-info-page .original-9 {
+.desktop-info-page .group-15 {
   position: absolute;
-  width: 366px;
-  top: 313px;
-  left: 35px;
-  font-family: "Poppins", Helvetica;
-  font-weight: 300;
-  color: #ffffff;
-  font-size: 18px;
-  text-align: justify;
-  letter-spacing: 0;
-  line-height: normal;
+  width: 494px;
+  height: 598px;
+  top: -20px;
+  left: 1044px;
 }
 
 .desktop-info-page .group-16 {
   position: absolute;
-  width: 73px;
-  height: 32px;
-  top: 45px;
-  left: 35px;
-}
-
-.desktop-info-page .overlap-group-8 {
-  position: relative;
-  width: 71px;
-  height: 32px;
-  border-radius: 15px;
-}
-
-.desktop-info-page .text-wrapper-51 {
-  position: absolute;
-  width: 40px;
-  top: 11px;
-  left: 15px;
-  font-family: "Poppins", Helvetica;
-  font-weight: 300;
-  color: #ffffff;
-  font-size: 14px;
-  text-align: justify;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.desktop-info-page .deposit-funds-and {
-  position: absolute;
-  width: 253px;
-  top: 214px;
-  left: 35px;
-  font-family: "Poppins", Helvetica;
-  font-weight: 600;
-  color: #ffffff;
-  font-size: 24px;
-  text-align: justify;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.desktop-info-page .line-2 {
-  position: absolute;
-  width: 366px;
-  height: 2px;
-  top: 289px;
-  left: 35px;
-}
-
-.desktop-info-page .deposit {
-  position: absolute;
-  width: 120px;
-  height: 120px;
-  top: 45px;
-  left: 281px;
-  object-fit: cover;
+  width: 494px;
+  height: 598px;
+  top: -20px;
+  left: 502px;
 }
 
 .desktop-info-page .group-17 {
   position: absolute;
   width: 494px;
   height: 598px;
-  top: 136px;
-  left: 502px;
+  top: -20px;
+  left: -24px;
 }
 
-.desktop-info-page .group-18 {
-  position: absolute;
-  width: 494px;
-  height: 598px;
-  top: 136px;
-  left: 1044px;
-}
-
-.desktop-info-page .original-10 {
+.desktop-info-page .original-9 {
   position: absolute;
   top: 0;
   left: 624px;
@@ -1970,7 +1889,7 @@
   left: 389px;
 }
 
-.desktop-info-page .original-11 {
+.desktop-info-page .original-10 {
   position: absolute;
   top: 0;
   left: 409px;
@@ -1983,7 +1902,7 @@
   line-height: normal;
 }
 
-.desktop-info-page .original-12 {
+.desktop-info-page .original-11 {
   position: absolute;
   width: 598px;
   top: 212px;
@@ -1997,7 +1916,7 @@
   line-height: normal;
 }
 
-.desktop-info-page .original-13 {
+.desktop-info-page .original-12 {
   position: absolute;
   width: 1032px;
   top: 282px;
@@ -2011,7 +1930,7 @@
   line-height: normal;
 }
 
-.desktop-info-page .original-14 {
+.desktop-info-page .original-13 {
   position: absolute;
   top: 471px;
   left: 0;
@@ -2024,7 +1943,7 @@
   line-height: normal;
 }
 
-.desktop-info-page .line-3 {
+.desktop-info-page .line-2 {
   position: absolute;
   width: 1143px;
   height: 2px;
@@ -2032,7 +1951,7 @@
   left: 0;
 }
 
-.desktop-info-page .line-4 {
+.desktop-info-page .line-3 {
   position: absolute;
   width: 1143px;
   height: 2px;
@@ -2040,9 +1959,30 @@
   left: 0;
 }
 
-.desktop-info-page .original-15 {
+.desktop-info-page .original-14 {
   position: absolute;
   top: 576px;
+  left: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 24px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop-info-page .line-4 {
+  position: absolute;
+  width: 1143px;
+  height: 2px;
+  top: 644px;
+  left: 0;
+}
+
+.desktop-info-page .original-15 {
+  position: absolute;
+  top: 681px;
   left: 0;
   font-family: "Poppins", Helvetica;
   font-weight: 500;
@@ -2057,13 +1997,13 @@
   position: absolute;
   width: 1143px;
   height: 2px;
-  top: 644px;
+  top: 749px;
   left: 0;
 }
 
 .desktop-info-page .original-16 {
   position: absolute;
-  top: 681px;
+  top: 786px;
   left: 0;
   font-family: "Poppins", Helvetica;
   font-weight: 500;
@@ -2078,32 +2018,11 @@
   position: absolute;
   width: 1143px;
   height: 2px;
-  top: 749px;
-  left: 0;
-}
-
-.desktop-info-page .original-17 {
-  position: absolute;
-  top: 786px;
-  left: 0;
-  font-family: "Poppins", Helvetica;
-  font-weight: 500;
-  color: #ffffff;
-  font-size: 24px;
-  text-align: justify;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.desktop-info-page .line-7 {
-  position: absolute;
-  width: 1143px;
-  height: 2px;
   top: 855px;
   left: 0;
 }
 
-.desktop-info-page .original-18 {
+.desktop-info-page .original-17 {
   position: absolute;
   top: 891px;
   left: 0;
@@ -2116,7 +2035,7 @@
   line-height: normal;
 }
 
-.desktop-info-page .line-8 {
+.desktop-info-page .line-7 {
   position: absolute;
   width: 1143px;
   height: 2px;
@@ -2180,7 +2099,7 @@
   left: -238px;
 }
 
-.desktop-info-page .overlap-21 {
+.desktop-info-page .overlap-20 {
   position: absolute;
   width: 1145px;
   height: 600px;
@@ -2206,7 +2125,7 @@
   );
 }
 
-.desktop-info-page .group-19 {
+.desktop-info-page .group-18 {
   position: absolute;
   width: 926px;
   height: 520px;
@@ -2214,7 +2133,7 @@
   left: 219px;
 }
 
-.desktop-info-page .overlap-group-9 {
+.desktop-info-page .overlap-group-8 {
   position: relative;
   height: 520px;
   border-radius: 20px;
@@ -2238,7 +2157,7 @@
   background: linear-gradient(180deg, rgba(14, 17, 17, 0) 0%, rgb(14, 17, 17) 100%);
 }
 
-.desktop-info-page .overlap-22 {
+.desktop-info-page .overlap-21 {
   position: absolute;
   width: 1186px;
   height: 600px;
@@ -2264,7 +2183,7 @@
   );
 }
 
-.desktop-info-page .group-20 {
+.desktop-info-page .group-19 {
   position: absolute;
   width: 903px;
   height: 520px;
@@ -2290,7 +2209,7 @@
   background: linear-gradient(180deg, rgba(14, 17, 17, 0) 0%, rgb(14, 17, 17) 100%);
 }
 
-.desktop-info-page .original-19 {
+.desktop-info-page .original-18 {
   position: absolute;
   top: 0;
   left: 1111px;
@@ -2303,7 +2222,7 @@
   line-height: normal;
 }
 
-.desktop-info-page .original-20 {
+.desktop-info-page .original-19 {
   position: absolute;
   width: 658px;
   top: 1436px;
@@ -2317,7 +2236,7 @@
   line-height: normal;
 }
 
-.desktop-info-page .original-21 {
+.desktop-info-page .original-20 {
   position: absolute;
   width: 769px;
   height: 216px;
@@ -2325,7 +2244,7 @@
   left: 1209px;
 }
 
-.desktop-info-page .group-21 {
+.desktop-info-page .group-20 {
   position: absolute;
   width: 322px;
   height: 113px;
@@ -2333,7 +2252,7 @@
   left: 418px;
 }
 
-.desktop-info-page .original-22 {
+.desktop-info-page .original-21 {
   position: absolute;
   top: 0;
   left: 0;
@@ -2346,7 +2265,7 @@
   line-height: normal;
 }
 
-.desktop-info-page .line-9 {
+.desktop-info-page .line-8 {
   position: absolute;
   width: 320px;
   height: 1px;
@@ -2355,7 +2274,7 @@
   object-fit: cover;
 }
 
-.desktop-info-page .original-23 {
+.desktop-info-page .original-22 {
   position: absolute;
   width: 213px;
   top: 1192px;
@@ -2368,7 +2287,7 @@
   line-height: normal;
 }
 
-.desktop-info-page .line-10 {
+.desktop-info-page .line-9 {
   position: absolute;
   width: 320px;
   height: 1px;
