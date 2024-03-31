@@ -36,7 +36,6 @@
 }
 
 .footer { 
-    border: red solid 1px;
     grid-area: footer; 
 }
 
@@ -901,7 +900,7 @@
 }
 
 .faqs-title {
-    top: 288px;
+    top: 318px;
     position: relative;
     display: flex;
     justify-content: center;
@@ -915,7 +914,7 @@
 .faq {
     margin-top: 2rem;
     left: 209px;
-    top: 350px;
+    top: 380px;
     position: relative;
     max-width: 1143px;
     border-bottom: 1px #ffffff solid;
@@ -974,7 +973,19 @@
     left: 0;
     width: 720px;
     height: 650px;
-    top: 8555px;
+    top: 8565px;
+}
+
+.footer-text {
+    width: 770px;
+    position: absolute;
+    top: 8750px;
+    left: 970px;
+    font-weight: 600;
+    font-size: 50px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: normal;
 }
 
 .footer {
@@ -983,7 +994,134 @@
     top: 0;
     left: 0;
     background-color: #0E1111;
-    border-top-width: 1px;
-    border-top-style: solid;
-    border-color: #ffffff;
+    border-top: 1px solid #ffffff;
+}
+
+.footer img {
+    position: relative;
+    top: 115px;
+    left: 154px;
+}
+
+.footer .footer-text-1 {
+    width: 507px;
+    position: relative;
+    top: 130px;
+    left: 180px;
+    font-weight: 300;
+    font-size: 16px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.footer .fb-icon {
+    position: relative;
+    left: 180px;
+    top: 200px;
+}
+
+.footer .ig-icon {
+    position: relative;
+    left: 205px;
+    top: 200px;
+}
+
+.footer .twitter-icon {
+    position: relative;
+    left: 230px;
+    top: 200px;
+}
+
+.footer .github-icon {
+    position: relative;
+    left: 255px;
+    top: 200px;
+}
+
+.footer .footer-text-2 {
+    width: 220px;
+    position: relative;
+    font-weight: 200;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+    left: 180px;
+    top: 215px;
+}
+
+img.footer-line {
+
+    position: relative;
+    top: -41px;
+    left: 787px;
+}
+
+.footer .navbar-footer {
+    width: 779px;
+    display: flex;
+    gap: 200px;
+    position: absolute;
+    left: 849px;
+    top: 140px;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.margin-left {
+    margin-left: 65px;
+}
+
+.footer-quick-links {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    top: 200px;
+    left: 849px;
+}
+
+.footer-quick-links a:hover{
+    color: #69d88a;
+}
+
+
+.footer-quick-links a{
+    color: #ffffff;
+}
+
+.footer-legal-links {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    top: 200px;
+    left: 1171px;
+}
+
+.footer-legal-links a:hover{
+    color: #69d88a;
+}
+
+.footer-legal-links a{
+    color: #ffffff;
+}
+
+.footer-contact-links {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    top: 200px;
+    left: 1495px;
+}
+
+.footer-contact-links a:hover{
+    color: #69d88a;
+}
+
+.footer-contact-links a{
+    color: #ffffff;
 }
