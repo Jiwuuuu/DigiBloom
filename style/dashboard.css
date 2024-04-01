@@ -1,0 +1,136 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,700,600,500,400,200|Inter:400");
+
+* {
+    font-family: "Poppins", Helvetica;
+    color: white;
+}
+
+
+.layout {
+    width: 1920px;
+}
+
+body {
+    font-family: "Poppins", Helvetica;
+    color: white;
+    background-color: #0f1212;
+    margin: 0;
+    width: 1920px;
+}
+
+.layout {
+    width: 1920px;
+    height: 1080px;
+  
+    display: grid;
+    grid:
+      "sidebar body" 1080px
+      / 303px 1617px;
+    gap: 8px 0px;
+  }
+  
+.sidebar { 
+    border: red solid 1px;
+    grid-area: sidebar; 
+}
+
+.body { 
+    grid-area: body; 
+}
+
+.user-info {
+    position: relative;
+    top: 27px;
+    left: 31px;
+    width: 241px;
+    height: 70px;
+    background-color: #2c2c2c;
+    border-radius: 15px;
+}
+
+.menu {
+    left: 31px;
+    top: 155px;
+    position: relative;
+    font-family: "Poppins", Helvetica;
+    font-weight: 500;
+    color: #a3a3a3;
+    font-size: 14px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 241px;
+    height: 449px;
+}
+
+.menu .dashboard {
+    position: relative;
+    left: 0;
+    width: 241px;
+    height: 45px;
+    background-color: #2c2c2c;
+    border-radius: 15px;
+}
+
+.dashboard a {
+    text-decoration: none;
+    position: relative;
+    top: 12px;
+    left: 43px;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.dashboard a:hover {
+    color: #A3FFBE;
+}
+
+.menu .logout {
+    position: relative;
+    left: 0;
+    width: 241px;
+    height: 45px;
+    background-color: #2c2c2c;
+    border-radius: 15px;
+}
+
+.logout a {
+    position: relative;
+    top: 12px;
+    left: 43px;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.logout a:hover {
+    color: #A3FFBE;
+}
+
+.message {
+    position: relative;
+    left: 88px;
+    top: 62px;
+    text-align: justify;
+}
+
+.message .text-1 {
+    font-weight: 500;
+    font-size: 28px;
+    text-align: justify;
+}
+
+.message .text-2 {
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
