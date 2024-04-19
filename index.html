@@ -155,7 +155,7 @@
                         <a href="" class="">
                             <button class="btn-4">
                                 <div class="btn-4-text">
-                                    <span class="btn-1-arrow">></span> Interactice learning environment
+                                    <span class="btn-1-arrow">></span> Interactive learning environment
                                 </div>
                             </button>
                         </a>
@@ -169,7 +169,7 @@
                         <a href="" class="">
                             <button class="btn-6">
                                 <div class="btn-6-text">
-                                    <span class="btn-1-arrow">></span> Accessible customer support
+                                    <span class="btn-1-arrow">></span> Environmental Accountability
                                 </div>
                             </button>
                         </a>
@@ -183,7 +183,7 @@
                         <a href="" class="">
                             <button class="btn-8">
                                 <div class="btn-8-text">
-                                    <span class="btn-1-arrow">></span> Environmental Accountability
+                                    <span class="btn-1-arrow">></span> Accessible customer support
                                 </div>
                             </button>
                         </a>
@@ -256,7 +256,7 @@
                     <p>DigiBlooms fosters a sense of community among users. You can connect with other savers, 
                         share your achievements, exchange financial tips, and participate in friendly competitions 
                         through the community features within the platform. It's an opportunity to motivate and be 
-                        motivated by like-minded individuals on their savings journeys.</p>
+                        motivated by like-minded individuals on their savings journeys. <a class="community-link" href="">Connect Here!</a></p>
                 </div>
             </div>
             <div class="image">
@@ -326,6 +326,18 @@
             delay: 200
         });
         ScrollReveal().reveal('.header', { delay: 600, origin: 'top', reset: false });
+    </script>
+     <script>
+        // Get all anchor tags
+        const anchorTags = document.querySelectorAll('.what-sets-us-apart-btn a');
+
+        // Loop through each anchor tag and attach event listener
+        anchorTags.forEach(anchor => {
+            anchor.addEventListener('click', function(event) {
+                // Prevent the default behavior of the anchor tag
+                event.preventDefault();
+            });
+        });
     </script>
     </section>
 </body>

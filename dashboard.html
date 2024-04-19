@@ -19,17 +19,6 @@
     <section class="layout">
         <div class="sidebar">
             <div class="user-info">
-            <?php 
-            
-            $id = $_SESSION['id'];
-            $query = mysqli_query($con,"SELECT*FROM users WHERE Id=$id");
-
-            while($result = mysqli_fetch_assoc($query)){
-                $res_Uname = $result['Username'];
-                $res_Email = $result['Email'];
-                $res_id = $result['Id'];
-            }
-            ?>
             </div>
             <div class="menu">
                 MENU
@@ -43,7 +32,7 @@
         </div>
         <div class="body">
             <div class="message">
-                <p class="text-1">Hello <b>Momo</b>, Welcome</p>
+                <p class="text-1">Hello <b>Jiwuu</b>, Welcome</p>
                 <p class="text-2">Welcome to your Garden</p>
             </div>
         </div>

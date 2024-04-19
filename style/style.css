@@ -1125,3 +1125,25 @@ img.footer-line {
 .footer-contact-links a{
     color: #ffffff;
 }
+
+.community-link{
+    text-decoration: none;
+    position: relative;
+    padding-bottom: 0px;
+    color: #69d88a;
+}
+
+.community-link::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #69d88a ;
+    transition: all 0.3s ease;
+}
+
+.community-link:hover::after{
+    width: 100%;
+}
