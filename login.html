@@ -14,7 +14,9 @@
         <div class="main">
             <div class="container">
                 <div class="box form-box">
-                    <header>DIGIBLOOM</header>
+                    <a href="index.html">
+                        <header>DIGIBLOOM</header>
+                    </a>
                     <div class="text">
                         <p class="text-1">
                             WELCOME!
@@ -23,35 +25,49 @@
                             Nice to see you here. Let's Start
                         </p>
                     </div>
-                    <form action="" method="post">
+                    <form action="dashboard.html" method="get">
                         <div class="field input">
                             <label for="email">Email*</label>
-                            <input type="email" name="email" id="email" autocomplete="off" required>
+                            <input type="email" name="email" id="email" autocomplete="off" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
                             <!-- Additional pattern attribute for email format validation -->
-                            <small>Format: example@example.com</small>
+                            <small>Format: example@gmail.com</small>
                         </div>
-                        
                         <div class="field input">
                             <label for="password">Password*</label>
-                            <input type="password" name="password" id="password" autocomplete="off" required minlength="8" maxlength="8">
+                            <div class="field">
+                                <input type="password" name="password" id="password" autocomplete="off" required minlength="8" maxlength="8">
+                                <button type="button" id="showPassword">Show</button>
+                            </div>
                             <!-- Additional minlength attribute for password length validation -->
                         </div>
-
+                        
                         <div class="submit">
                             <input type="submit" name="submit" value="Login" autocomplete="off" required>
                         </div>
-
                         <div class="links">
-                            Don't have an account? <a href="register.php">Sign Up</a>
+                            Don't have an account? <a href="register.html">Sign Up</a>
                         </div>
                     </form>
                 </div>
             </div>
         </div>
-
         <div class="footer">
             <!--empty-->
         </div>
-      </section>
+        <script>
+            const showPasswordButton = document.getElementById('showPassword');
+            const passwordInput = document.getElementById('password');
+
+            showPasswordButton.addEventListener('click', function() {
+                if (passwordInput.type === 'password') {
+                    passwordInput.type = 'text';
+                    showPasswordButton.textContent = 'Hide';
+                } else {
+                    passwordInput.type = 'password';
+                    showPasswordButton.textContent = 'Show';
+                }
+            });
+        </script>
+    </section>
 </body>
 </html>

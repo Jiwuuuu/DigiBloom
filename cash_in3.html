@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
-    <link rel="stylesheet" href="style/dashboard.css">
+    <link rel="stylesheet" href="style/cash_in3.css">
 </head>
 <body>
     <section class="layout">
@@ -33,7 +33,6 @@
                     </button>
                 </a>
 
-
                 <a href="">
                     <button class="menu-btn">
                         Help Center
@@ -55,45 +54,38 @@
             </section>
         </div>
         <div class="body">
-            
             <div class="message">
                 <p class="text-1">
-                    Hello <b>Andrei</b>, Welcome!
-                </p>
-                <p class="text-2">
-                    Welcome to your Garden 🌱
+                    Account Balance
                 </p>
             </div>
             <div class="dashboard">
-                <div class="stages">
-                    <div class="growth">Growth Stages</div>
-                    <section class="stages-content">
-                        <div>Level 3 - 1000 PHP</div>
-                        <div>Level 2 - 500 PHP</div>
-                        <div>level 1 - 250 PHP</div>
-                        <div>Level 0 - 0 PHP</div>
-                    </section>
-                </div>
-                <img class="dashboard-bg" src="img/dashboard-bg.png" alt="">
-                <img class="plant" src="img/plant-stage1.png" alt="">
-                <img class="stool" src="img/stool.png" alt="">
-                <div class="saving-goal">
-                    <div class="box-goal">
-                        <div class="goal">0/1000</div>
-                        <div>Saving Goal</div>
-                    </div>
-                </div>
-                <button class="deposit-btn">
-                    <div class="deposit-text">Deposit</div>
-                </button>
+                <section class="form">
+                    <form action="cash_in4.html" method="get">
+                        <div>
+                            <label for="gcashNumber">Enter GCASH Number #:</label>
+                            <input type="text" id="gcashNumber" name="gcashNumber" autocomplete="off" required minlength="11" maxlength="11">
+                        </div>
+                
+                        <div>
+                            <label for="firstName">Enter GCASH First Name:</label>
+                            <input type="text" id="firstName" name="firstName">
+                        </div>
+                
+                        <div>
+                            <label for="lastName">Enter GCASH Last Name:</label>
+                            <input type="text" id="lastName" name="lastName">
+                        </div>
+                
+                        <button type="submit">Submit</button>
+                    </form>
+                </section>                
             </div>
-            <div class="savings-balance">
-                <p>Savings Balance : 0 PHP</p>
-            </div>
+            <img src="img/cash-in-3.png" alt="" class="cash-in-3">
+            <img src="img/cash-in-3-ellipse.png" alt="" class="cash-in-3-ellipse">
             <div class="account-balance">
                 <p>Account Balance : 0 PHP</p>
             </div>
-            <img class="dashboard-ellipse" src="img/dashboard-ellipse.png" alt="">
         </div>
     </section>
 </body>

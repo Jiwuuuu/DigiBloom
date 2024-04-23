@@ -11,7 +11,7 @@
 }
 
 .layout {
-    width: 1920px;
+    width: 1920px;  
 }
   
 .header {
@@ -161,22 +161,22 @@
     letter-spacing: 0;
     line-height: normal;
     white-space: nowrap;
-    background: linear-gradient(43deg, #76F49B, #7DF6AD, #83F9BE, #8AFBD2, #91FEE4, #6DDFE9, #47BFEE, #2DA9F2, #1897F4, #76F49B);
-    background-size: 400%;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
-    animation: animate 15s linear infinite;
-}
+        background: linear-gradient(43deg, #76F49B, #7DF6AD, #83F9BE, #8AFBD2, #91FEE4, #6DDFE9, #47BFEE, #2DA9F2, #1897F4, #76F49B);
+        background-size: 400%;
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        animation: animate 15s linear infinite;
+    }
 
-@keyframes animate{
-    0%{
-        background-position: 0%;
+    @keyframes animate{
+        0%{
+            background-position: 0%;
+        }
+        100%{
+            background-position: 400%;
+        }
     }
-    100%{
-        background-position: 400%;
-    }
-}
 
 .glow-your-blooms {
     top: 379px;
@@ -414,6 +414,7 @@
     text-align: left;
     position: relative;
     top: 396px;
+    left: 0px;
 }
 
 .our-mission img {
@@ -498,9 +499,9 @@
 }
 
 .what-sets {
-    top: 5685px;
+    top: 0px;
     left: 666px;
-    position: absolute;
+    position: relative;
     background-clip: text;
     font-family: "Poppins", Helvetica;
     font-weight: 700;
@@ -565,9 +566,9 @@
 }
 
 .btn-1-text {
-    top: -5px;
+    top: 10px;
     position: relative;
-    left: 85px;
+    left: 370px;
     font-family: "Poppins", Helvetica;
     font-weight: 400;
     font-size: 20px;
@@ -585,7 +586,6 @@
 
 .btn-1 {
     z-index: 2;
-    cursor: pointer;
     color: #ffffff;
     transition: all 0.3s;
     top: 6350px;
@@ -623,7 +623,6 @@
 .btn-2 {
     z-index: 2;
     border-radius: 60px 0px 0px 60px;
-    cursor: pointer;
     color: #ffffff;
     transition: all 0.3s;
     top: 6350px;
@@ -644,7 +643,7 @@
 
 .btn-2-text {
     width: 369px;
-    top: -5px;
+    top: 10px;
     position: relative;
     left: 50px;
     font-family: "Poppins", Helvetica;
@@ -667,7 +666,6 @@
 
 .btn-3 {
     z-index: 2;
-    cursor: pointer;
     transition: all 0.3s;
     color: #ffffff;
     width: 500px;
@@ -683,7 +681,7 @@
 
 .btn-3-text {
     width: 369px;
-    top: -5px;
+    top: 10px;
     position: relative;
     left: 50px;
     font-family: "Poppins", Helvetica;
@@ -705,7 +703,6 @@
 }
 
 .btn-4 {
-    cursor: pointer;
     z-index: 2;
     transition: all 0.3s;
     left: 853px;
@@ -727,7 +724,7 @@
 
 .btn-4-text {
     width: 369px;
-    top: -5px;
+    top: 10px;
     position: relative;
     left: 50px;
     font-family: "Poppins", Helvetica;
@@ -749,7 +746,6 @@
 }
 
 .btn-5 {
-    cursor: pointer;
     z-index: 2;
     transition: all 0.3s;
     left: 568px;
@@ -765,7 +761,7 @@
 }
 
 .btn-5-text {
-    top: -5px;
+    top: 10px;
     position: relative;
     left: 50px;
     font-family: "Poppins", Helvetica;
@@ -788,7 +784,6 @@
 
 
 .btn-6 {
-    cursor: pointer;
     transition: all 0.3s;
     color: #ffffff;
     z-index: 3;
@@ -804,7 +799,7 @@
 }
 
 .btn-6-text {
-    top: -8px;
+    top: 10px;
     position: relative;
     left: 50px;
     font-family: "Poppins", Helvetica;
@@ -826,7 +821,6 @@
 
 
 .btn-7 {
-    cursor: pointer;
     z-index: 2;
     transition: all 0.3s;
     color: white;
@@ -842,7 +836,7 @@
 }
 
 .btn-7-text {
-    top: -8px;
+    top: 10px;
     position: relative;
     left: 30px;
     font-family: "Poppins", Helvetica;
@@ -863,7 +857,6 @@
 }
 
 .btn-8 {
-    cursor: pointer;
     z-index: 2;
     transition: all 0.3s;
     color: white;
@@ -879,7 +872,7 @@
 }
 
 .btn-8-text {
-    top: -8px;
+    top: 10px;
     position: relative;
     left: 30px;
     font-family: "Poppins", Helvetica;
@@ -944,6 +937,10 @@
     color: #76F49B;
 }
 
+.footer-text span {
+    color: #76F49B;
+}
+
 .answer p {
     padding-bottom: 1.5rem;
     line-height: normal;
@@ -964,8 +961,12 @@
     line-height: normal;
 }
 
-.accordion.active svg {
+.accordion svg {
     transform: rotate(180deg);
+}
+
+.accordion.active svg {
+    transform: rotate(0deg);
 }
 
 .image {
@@ -1146,4 +1147,105 @@ img.footer-line {
 
 .community-link:hover::after{
     width: 100%;
+}
+
+
+.overlay {
+    position: fixed;
+    top: 100px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: transparent;
+    transition: opacity 300ms;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.popup {
+    display: grid;
+    gap: 25px;
+    color: #ffffff;
+    margin: 70px auto;
+    padding: 20px;
+    padding-bottom: 30px;
+    background-color: #0E1111;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    border: #84CD9A solid 1px;
+}
+
+.popup p {
+    text-align: justify;
+    line-height: normal;
+}
+
+.popup h1 {
+    color: #69d88a;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 100ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #69d88a;
+}
+
+.popup .close:hover {
+    color: #84CD9A;
+}
+
+.popup .email-link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.popup .email-link:hover  {
+    color: #69d88a;
+}
+
+.leftSide img {
+    position: relative;
+    top: 3350px;
+    left: 0;
+    z-index: 0;
+}
+
+.ellipse-effects-4 {
+    position: absolute;
+    top: 4380px;
+    left: 1186px;
+    z-index: 0;
+}
+
+.ellipse-feature-1 {
+    position: absolute;
+    z-index: 0;
+    left: 0;
+    top: 960px;
+}
+
+.features img {
+    z-index: 2;
+}
+
+.ellipse-feature-2 {
+    position: absolute;
+    top: 960px;
+    left: 1446px;
+    z-index: 0;
 }

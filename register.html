@@ -70,7 +70,7 @@
                             Create an account and get access to quick and on-time transactions
                         </p>
                     </div>
-                    <form action="" method="post">
+                    <form action="registerdone.html" method="get">
                         <div class="field input">
                             <label for="username">Username*</label>
                             <input type="text" name="username" id="username" autocomplete="off" required>
@@ -85,21 +85,37 @@
 
                         <div class="field input">
                             <label for="password">Password*</label>
-                            <input type="password" name="password" id="password" autocomplete="off" required minlength="8" maxlength="8">
-                            <!-- Additional minlength and maxlength attributes for password length validation -->
+                            <div class="field">
+                                <input type="password" name="password" id="password" autocomplete="off" required minlength="8" maxlength="8">
+                                <button type="button" id="showPassword">Show</button>
+                            </div>
+                            <!-- Additional minlength attribute for password length validation -->
                         </div>
 
                         <div class="submit">
                             <input type="submit" name="submit" value="Create Account" required>
                         </div>
                         <div class="links">
-                            Already have an account? <a href="login.php">Log in</a>
+                            Already have an account? <a href="login.html">Log in</a>
                         </div>
                     </form>
                 </div>
             </div>
         </div>
-                        
+                <script>
+            const showPasswordButton = document.getElementById('showPassword');
+            const passwordInput = document.getElementById('password');
+
+            showPasswordButton.addEventListener('click', function() {
+                if (passwordInput.type === 'password') {
+                    passwordInput.type = 'text';
+                    showPasswordButton.textContent = 'Hide';
+                } else {
+                    passwordInput.type = 'password';
+                    showPasswordButton.textContent = 'Show';
+                }
+            });
+        </script>
         <div class="footer">
             <!--empty-->
         </div>

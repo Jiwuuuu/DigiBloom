@@ -159,7 +159,7 @@ a {
     width: 150px;
     position: absolute;
     left: 991px;
-    top: 210px;
+    top: 80px;
 }
 
 .dashboard .stool {
@@ -255,14 +255,46 @@ a {
 
 .stages-content {
     position: relative;
-    top: 169px;
+    top: 120px;
     text-align: center;
     display: flex;
     flex-direction: column;
     gap: 80px;
     text-shadow: 0px 4px 4px #00000040;
     font-weight: 600;
-    font-size: 35px;
+    font-size: 25px;
+    line-height: 35px;
+}
+
+.stages-content .emoji {
+    font-size: 50px;
+}
+
+.stages-content span {
+    background-clip: text;
+    font-family: "Poppins", Helvetica;
+    font-weight: 700;
+    color: transparent;
+    font-size: 59px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+        background: linear-gradient(43deg, #76F49B, #7DF6AD, #83F9BE, #8AFBD2, #91FEE4, #6DDFE9, #47BFEE, #2DA9F2, #1897F4, #7DF6AD, #76F49B);
+        background-size: 400%;
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        animation: animate 15s linear infinite;
+    }
+
+    @keyframes animate{
+        0%{
+            background-position: 0%;
+        }
+        100%{
+            background-position: 400%;
+        }
 }
 
 .growth {

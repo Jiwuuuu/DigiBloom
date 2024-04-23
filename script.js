@@ -29,4 +29,3 @@ function closeAllAnswers() {
     acc[j].classList.remove("active");
   }
 }
-
