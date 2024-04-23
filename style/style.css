@@ -11,7 +11,7 @@
 }
 
 .layout {
-    width: 1920px;  
+    width: 1920px;
 }
   
 .header {
@@ -414,7 +414,6 @@
     text-align: left;
     position: relative;
     top: 396px;
-    left: 0px;
 }
 
 .our-mission img {
@@ -501,7 +500,7 @@
 .what-sets {
     top: 5685px;
     left: 666px;
-    position: relative;
+    position: absolute;
     background-clip: text;
     font-family: "Poppins", Helvetica;
     font-weight: 700;
@@ -1152,11 +1151,11 @@ img.footer-line {
 
 .overlay {
     position: fixed;
-    top: 100px;
+    top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    background: transparent;
+    background: #0E1111;
     transition: opacity 300ms;
     visibility: hidden;
     opacity: 0;
